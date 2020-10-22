@@ -1,0 +1,311 @@
+
+@font-face {
+    font-family:juego-tronos;
+    src: url(../font/gt.ttf);
+}
+/* -------------------navegation bar and header----------------------*/
+.container {
+    display: flex;
+    justify-content: space-between;
+    height: 45px;
+    position: fixed; 
+    top:0;
+    left: 0;
+    z-index: 2;
+    width: 100%; 
+    background-color: #FFFFFF; 
+}
+
+.logo{
+    padding: 0px 0px 0px 10px; 
+    display: flex;
+    align-items: center;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #000;
+}
+
+.logo h1 {
+    margin: 0;
+    
+    font-family: juego-tronos,'Times New Roman', Times, serif;
+    font-variant: small-caps;
+    font-size: 2rem;
+
+}
+
+.nav-items{
+    display: flex;
+    align-items: center;
+    padding: 0px 10px 0px 10px;
+    margin: 0; 
+}
+
+.nav-items > a {
+    padding: 8px;
+    text-decoration: none;
+    color: #000;
+}
+
+.nav-items a:hover{
+    background-color:#efeffe;
+    color: #000000;
+    border-radius: 5px;
+}
+
+.header {
+    background-image: url(/img/header-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover; 
+    height: 100vh;
+    padding-top: 15%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content:flex-start;
+    align-content: flex-end;       
+} 
+
+.content-title {
+    padding: 0 10px 0 20px;
+    margin: 0 auto;
+    width: 52%;    
+}
+
+.content-title span {
+    font-family: juego-tronos,'Times New Roman', Times, serif;
+    font-variant: small-caps;
+    font-size: 2rem;
+}
+
+
+/* -------------Section que hago - a que me dedico ---------------------*/
+.center {
+    max-width: 900px;
+    margin: auto;
+    
+}
+.content h1 {
+    font-family: juego-tronos, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-variant: small-caps;
+    font-size: 2.5rem;
+    
+}
+
+.content img {
+    max-width: 100%;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.card {
+    flex-basis: 40%;
+    margin: 3%;
+}
+
+.card img {
+    width: 100%;
+    
+}
+
+.card h2, p {
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* ----------------------Quien soy --------------------------------*/
+
+.center-bio{
+    background-color: #EFEFFE;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+
+}
+section h1 {
+    text-align:center;
+    font-family: juego-tronos, 'Times New Roman', Times, serif;
+}
+
+.container-content {
+    width: 1200px;
+    max-width: 90%;
+    margin: auto;
+    display: flex;
+}
+
+.biografia {
+    padding:0.3em;
+    margin: auto;
+    flex: 0 1 60%;
+
+}
+
+.habilidades {
+    margin:  0 auto;
+    flex: 0 1 30%;
+    padding-left: 3%;
+}
+
+.habilidades img {
+    width: 100%;
+    max-width: 100%;
+}
+
+.habilidades p {
+    text-align: right;
+}
+
+
+/* --------------------barras------------------------- */
+
+.bar-out {
+    border:rgb(44, 116, 241) solid .5px;
+    border-radius: 12px;
+    height: 18px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 2px;
+    margin: 7px 0 7px 0;
+}
+
+.bar-int-70{
+    background-color: crimson;
+    height: 12px;
+    width: 70%;
+    border-radius: 10px;
+}
+
+.bar-int-90{
+    background-color: crimson;
+    height: 12px;
+    width: 90%;
+    border-radius: 10px;
+}
+
+.bar-int-85{
+    background-color: crimson;
+    height: 12px;
+    width: 85%;
+    border-radius: 10px;
+}
+
+
+/* ---------------------------Batallas----------------------------- */
+.batallas{
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+
+}
+
+.batallas-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 900px;
+    max-width: 90%;
+    margin: auto;
+    
+}
+
+.batalla {
+    padding:1.5em;
+    text-align: justify;
+    flex-basis: 50%;
+}
+
+.batalla img {
+    max-width: 100%;
+    width: 100%;
+    
+}
+
+.batalla h1 {
+    font-family: juego-tronos, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-variant: small-caps;
+    font-size: 2.5rem;
+    
+}
+
+/* --------------formulario-------------------- */
+
+.contacto {
+    background-color:#EFEFFE ;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+}
+
+.formulario {
+    width: 900px;
+    max-width: 100%;
+    margin:  auto;
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+}
+
+.text-one {
+    padding: 1em;
+    flex-basis: 50%;
+
+
+}
+
+.text-two {
+    padding: 1em;
+    flex-basis: 50%;
+
+    
+    
+}
+
+input[type="text"], 
+form input[type="email"],
+textarea
+    {
+    width: 100%;
+    padding: .5rem;
+}
+
+input[type="submit"]{
+    background-color: crimson;
+    color: #FFFFFF;
+    padding: .5rem;
+    width: 30%;
+    border-radius: 5px;
+    text-transform: uppercase;
+    border: none;
+}
+
+
+
+/* ------------Pie de pagina---------- */
+
+footer {
+    background-color: crimson;
+    height: 100px;
+    margin-top: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
